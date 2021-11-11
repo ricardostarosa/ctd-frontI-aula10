@@ -4,9 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Montserrat:wght@600;700;900&display=swap" rel="stylesheet">
+    
     <title>Atividade Integradora</title>
     <style type="text/css">
         /* Coloque o código fonte da atividade aqui */
+
+        *{
+
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+
+            font-family: 'Exo', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .conteudo{
+
+            
+            border: 1px solid red;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 200px;
+            width: 1340px;
+           
+           
+        }
+
+        .cartao{
+
+            background-color: #cedeeb;
+            border-radius: 30px;
+            float: left;
+            height: 400px;
+            margin-left: 30px; 
+            width: 200px;
+            
+        }
+
+        .cartao__corpo{
+
+            height: 300px;
+            margin: 0 auto;
+            position: relative;
+            text-align: left;
+            top: -70px;
+            width: 150px;
+            
+
+        }
+
+        .cartao__icone{
+
+            display: block;
+            height: 150px;
+            margin: 0 auto;
+            position: relative;
+            top: -90px;
+            /* border: 1px solid red; */
+           
+        }
+
+        .cartao__titulo{
+
+           
+            color: #09589d;
+            font-weight: 700;
+        }
+        
+        .cartao__descricao{
+
+            color: #147275;
+            font-size: 1.3em;
+            font-weight:400;
+            line-height: 28px;
+            position: relative;
+            top: 20px;
+            
+        }
+        
+        
+        .cartao__botao{
+
+            background-color: #009aa6 ;
+            border-radius: 15px;
+            color: beige;
+            display: block;
+            font-weight: bolder;
+            font-size: 1.2em;
+            padding: 12px;
+            position: absolute;
+            text-decoration: none;
+            text-align: center;
+            top: 240px;
+            width: 150px;
+        }
+       
 
     </style>
 </head>
@@ -14,7 +114,9 @@
     <!-- O código HTML pode ser alterado se considerarem necessário. -->
     <div class="conteudo">
         <div class="cartao">
+            
             <img class="cartao__icone" src="./imagens/img1.png" alt="">
+            
             <section class="cartao__corpo">
                 <h1 class="cartao__titulo">Nosso Clube de Vantagens</h1>
                 <p class="cartao__descricao">Tenha acesso a benefícios e vantagens exclusivas.</p>
@@ -22,7 +124,7 @@
             </section>
         </div>
         <div class="cartao">
-            <img class="cartao__icone" src="./imagens/img2.png" alt="">
+            <img class="cartao__icone" src="./imagens/img2.png" alt="" >
             <section class="cartao__corpo">
                 <h1 class="cartao__titulo">Área do Associado</h1>
                 <p class="cartao__descricao">Área exclusiva para nossos associados.</p>
